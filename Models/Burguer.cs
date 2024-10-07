@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace FogachoA_EjercicioCF.Models
 {
@@ -10,5 +11,6 @@ namespace FogachoA_EjercicioCF.Models
         public bool WithCheese { get; set; }
         [Range(0.01, 9999.99)]
         public decimal Precio { get; set; }
+        
     }
 }
